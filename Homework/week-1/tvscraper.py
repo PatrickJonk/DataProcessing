@@ -37,6 +37,8 @@ def extract_tvseries(dom):
     # global list for storing all series information
     series_list = []
 
+    print dom.content
+
     # collect all info of the series, one series at a time
     for l in range(NUMBER_OF_SERIES):
 
