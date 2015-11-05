@@ -12,6 +12,11 @@ import codecs
 import cStringIO
 import errno
 
+# I get an unicodedecodeerror when writing the csv file. These two lines fix 
+# that
+reload(sys)  
+sys.setdefaultencoding('utf8')
+
 # Third party library imports:
 import pattern
 from pattern.web import URL, DOM, plaintext
@@ -220,7 +225,7 @@ def scrape_top_250(url):
     x = 0
 
     # extract links to the movie pages of the movies in the imdb top 250
-    for i in range(10):
+    for i in range(250):
 
         # extract link to movie page for each movie
         for data in dom.by_tag("td.titleColumn")[i].by_tag("a"):
