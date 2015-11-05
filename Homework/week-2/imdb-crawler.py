@@ -255,18 +255,41 @@ def scrape_movie_page(dom):
     # remove tags and year
     title = title[7:-22]
 
-    print str(dom.get_elements_by_tagname("span"))
+    
+    genre = ''
+    for i in dom.by_tag("div.infobar")[0].by_tag("span.itemprop"):
+        genre += i.content + '; '
+
+    genre = genre[:-2]
+ 
+
+    duration = dom.by_tag("div.infobar")[0].by_tag("time")[0].content.replace(" ", "")
+    duration = duration[:-4]
+    print duration
 
 
+    rating = dom.get_elements_by_tagname("div.titlePageSprite star-box-giga-star")[0].content   
+    rating = rating.replace(" ", "")
 
-    #for m in dom.by_tag("time.duration"):
-        #print m
-        
+    directors = ''
+    for i in dom.by_tag("div.txt-block")[0].by_tag("span.itemprop"):
+        directors += i.content + '; '
+    directors = directors[:-2]
 
-    #print duration
-    #title = title[:-5]
+    writers = ''
+    for i in dom.by_tag("div.txt-block")[1].by_tag("span.itemprop"):
+        writers += i.content + '; '
+    writers = writers[:-2]
 
-    #print title
+    writers = ''
+    for i in dom.by_tag("div.txt-block")[2].by_tag("span.itemprop"):
+        actors += i.content + '; '
+    actors = actors[:-2]
+    print actors
+    
+    
+
+
     # Return everything of interest for this movie (all strings as specified
     # in the docstring of this function).
     return title, duration, genres, directors, writers, actors, rating, \
