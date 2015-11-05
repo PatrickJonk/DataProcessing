@@ -220,7 +220,7 @@ def scrape_top_250(url):
     x = 0
 
     # extract links to the movie pages of the movies in the imdb top 250
-    for i in range(250):
+    for i in range(10):
 
         # extract link to movie page for each movie
         for data in dom.by_tag("td.titleColumn")[i].by_tag("a"):
@@ -250,46 +250,47 @@ def scrape_movie_page(dom):
     '''
     # YOUR SCRAPING CODE GOES HERE:
 
+    # scrape movie titles
     title = str(dom.get_elements_by_tagname("title")[0])
    
     # remove tags and year
     title = title[7:-22]
 
-    
-    genre = ''
+    # scrape movie genres
+    genres = ''
     for i in dom.by_tag("div.infobar")[0].by_tag("span.itemprop"):
-        genre += i.content + '; '
-
-    genre = genre[:-2]
+        genres += i.content + '; '
+    genres = str(genres[:-2])
  
-
-    duration = dom.by_tag("div.infobar")[0].by_tag("time")[0].content.replace(" ", "")
+    # scrape movie runtime
+    duration = dom.by_class("infobar")[0].by_tag("time")[0].content.replace("\n", "").replace("    ", "") 
     duration = duration[:-4]
-    print duration
 
-
-    rating = dom.get_elements_by_tagname("div.titlePageSprite star-box-giga-star")[0].content   
-    rating = rating.replace(" ", "")
-
+    # scrape movie directors
     directors = ''
     for i in dom.by_tag("div.txt-block")[0].by_tag("span.itemprop"):
         directors += i.content + '; '
-    directors = directors[:-2]
+    directors = str(directors[:-2])
 
+    # scrape movie writers
     writers = ''
     for i in dom.by_tag("div.txt-block")[1].by_tag("span.itemprop"):
         writers += i.content + '; '
-    writers = writers[:-2]
+    writers = str(writers[:-2])
 
-    writers = ''
+    # scrape movie actors
+    actors = ''
     for i in dom.by_tag("div.txt-block")[2].by_tag("span.itemprop"):
         actors += i.content + '; '
-    actors = actors[:-2]
-    print actors
+    actors = str(actors[:-2])
     
+    # scrape movie ratings
+    rating = dom.get_elements_by_tagname("div.titlePageSprite star-box-giga-star")[0]  
+    rating = str(rating.content.replace(" ", ""))
+
+    # scrape number of ratings
+    n_ratings = str(dom.by_attr(itemprop="ratingCount")[0][0])
     
-
-
     # Return everything of interest for this movie (all strings as specified
     # in the docstring of this function).
     return title, duration, genres, directors, writers, actors, rating, \
