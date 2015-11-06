@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-# Name:
-# Student number:
+# Name: Patrick Jonk
+# Student number: 10001336
 '''
 This script crawls the IMDB top 250 movies.
 '''
