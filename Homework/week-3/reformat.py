@@ -2,11 +2,9 @@
 # Patrick Jonk
 # 10001336
 
+# This file reformats data to from text csv 
+
 import csv
-
-
-dates = []
-temps = []
 
 with open('data.csv', 'wb') as outfile:
         writer = csv.writer(outfile)
@@ -26,42 +24,8 @@ with open('data.csv', 'wb') as outfile:
 			# extract temperature
 			temp = line[11:14].replace(" ", "")
 
-			#writer.writerows([date, temp])
 			writer.writerow([date, temp])
+			
 
 f.close()
 outfile.close()
-
-
-
-
-       
-
-
-		
-# f.readline()
-# f.readline()
-# f.readline()
-# f.readline()
-# f.readline()
-# f.readline()
-# f.readline()
-# f.readline()
-# f.readline()
-# f.readline()
-# f.readline()
-# f.readline()
-
-# date = f.readline()
-# date = date[6:]
-# year = date[:4]
-# month = date[4:6]
-# day = date[6:8]
-# print date[9:]
-
-# print year + '/' + month +'/' + day
-
-
-
-	#writer.writerow(date)
-	
