@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-	<body>
-
-		<textarea id="rawdata">
+	<textarea id="rawdata">
 2000/11/01,100
 2000/11/02,114
 2000/11/03,114
@@ -370,59 +367,54 @@
 2001/10/30,190
 2001/10/31,153
 2001/11/01,134
-
-
-		</textarea>
-	</body>
-	<script>
-
-	datapoints = []
-
-	raw_data = document.getElementById("rawdata").value
-	raw_datapoints = raw_data.split("\n")
-
-	for (i = 0; i < raw_datapoints.length ; i++) {
-		chunks = raw_datapoints[i].split(",")
-		chunks[0] = (new Date(chunks[0])).getTime()
-		datapoints.push(chunks)
-		// console.log(chunks[1])
-	}
-	
-	function createTransform(domain, range){
-	// domain is a two-element array of the domain's bounds
-	// range is a two-element array of the range's bounds
-	// implement the actual calculation here
-	
-	var alpha = (range[1] - range[0]) / (domain[1] - domain[0]);
-	var beta = range[0] - (alpha * domain[0]);
-
-	return function(x){
-		return alpha * x + beta;
-		};
-	}
-	// console.log(datapoints)
-	var width = 800
-	var height = 400
-
-	var padding_X = 100
-	var padding_Y = 50
-
-	var graph_X = width - padding_X
-	var graph_Y = height - padding_Y
-
-
-
-	var transform_time = createTransform([datapoints[0][0], datapoints[365][0]], [padding_X, width]);
-	var transform_temp = createTransform([-100, 400], [height, 0]);
-	
-	// console.log(typeof res)
-	// console.log(res)
-	</script>
+	</textarea>
 	<canvas id="myCanvas" width="800" height="450" style="border:1px solid #000000;"></canvas>
-
 	<script>
-		
 
+		// array of datapoints for plotting
+		datapoints = []
+
+		// get raw data from textarea
+		raw_data = document.getElementById("rawdata").value
+		raw_datapoints = raw_data.split("\n")
+
+		// create datapoints from raw data
+		for (i = 0; i < raw_datapoints.length ; i++) {
+			chunks = raw_datapoints[i].split(",")
+			chunks[0] = (new Date(chunks[0])).getTime()
+			datapoints.push(chunks)
+			// console.log(chunks[1])
+		}
+		
+		function createTransform(domain, range){
+		// domain is a two-element array of the domain's bounds
+		// range is a two-element array of the range's bounds
+		// implement the actual calculation here
+		
+		var alpha = (range[1] - range[0]) / (domain[1] - domain[0]);
+		var beta = range[0] - (alpha * domain[0]);
+
+		return function(x){
+			return alpha * x + beta;
+			};
+		}
+		
+		// define variables for canvas size
+		var width = 800
+		var height = 400
+
+		var padding_X = 100
+		var padding_Y = 50
+
+		var graph_X = width - padding_X
+		var graph_Y = height - padding_Y
+
+		// create transformation functions for mapping the datapoints to pixels
+		var transform_time = createTransform([datapoints[0][0], datapoints[365][0]], [padding_X, width]);
+		var transform_temp = createTransform([-100, 400], [height, 0]);
+		
+		
+		
 		var canvas = document.getElementById("myCanvas");
 		var context = canvas.getContext("2d");
 
@@ -456,8 +448,8 @@
 		    context.fillStyle = 'black';
 		    var temp = 30 - i * 10
 		    context.fillText(temp + "   ", padding_X , (i * 80) + 87);
-
 	    }
+
 		// plot vertical raster lines
 		var months = 12
 		for (i = 0; i < months; i++) {
@@ -496,7 +488,7 @@
 	    context.fillText("Maximum temperature in de Bilt (NL) in 2000 - 2001   ", width, 40);
 
 
-	// plot graph
+		// plot datapoints
 		context.beginPath();
 		for (i = 0; i < 365 ; i++) {
 			
@@ -504,13 +496,10 @@
 			context.lineTo(transform_time(datapoints[i + 1][0]), transform_temp(datapoints[i + 1][1]));
 		}
 		context.lineWidth = 1;
-    	context.strokeStyle = 'blue';
-    	context.stroke();
-
-    
+		context.strokeStyle = 'blue';
+		context.stroke();
 
 		context.font = '10pt Calibri';
-
 		months = [ 'November', 
 					'December',
 					'January',
@@ -547,6 +536,5 @@
 		context.rotate(0.5*Math.PI);
 		context.fillText('Temperature (degree Celcius)' , 0, 0);
 		context.restore();
-
 	</script>
 </html>
