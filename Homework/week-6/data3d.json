@@ -1,0 +1,930 @@
+[
+    {
+        "age": "72.959", 
+        "country_code": "ABW"
+    }, 
+    {
+        "age": "59.688", 
+        "country_code": "AFG"
+    }, 
+    {
+        "age": "50.413", 
+        "country_code": "AGO"
+    }, 
+    {
+        "age": "74.607", 
+        "country_code": "ALB"
+    }, 
+    {
+        "age": "68.2480587393457", 
+        "country_code": "ARB"
+    }, 
+    {
+        "age": "76.143", 
+        "country_code": "ARE"
+    }, 
+    {
+        "age": "72.639", 
+        "country_code": "ARG"
+    }, 
+    {
+        "age": "71.271", 
+        "country_code": "ARM"
+    }, 
+    {
+        "age": "73.481", 
+        "country_code": "ATG"
+    }, 
+    {
+        "age": "80.1", 
+        "country_code": "AUS"
+    }, 
+    {
+        "age": "78.5", 
+        "country_code": "AUT"
+    }, 
+    {
+        "age": "67.639", 
+        "country_code": "AZE"
+    }, 
+    {
+        "age": "52.225", 
+        "country_code": "BDI"
+    }, 
+    {
+        "age": "77.8", 
+        "country_code": "BEL"
+    }, 
+    {
+        "age": "57.91", 
+        "country_code": "BEN"
+    }, 
+    {
+        "age": "55.676", 
+        "country_code": "BFA"
+    }, 
+    {
+        "age": "69.929", 
+        "country_code": "BGD"
+    }, 
+    {
+        "age": "71.1", 
+        "country_code": "BGR"
+    }, 
+    {
+        "age": "75.885", 
+        "country_code": "BHR"
+    }, 
+    {
+        "age": "72.115", 
+        "country_code": "BHS"
+    }, 
+    {
+        "age": "73.796", 
+        "country_code": "BIH"
+    }, 
+    {
+        "age": "67.3", 
+        "country_code": "BLR"
+    }, 
+    {
+        "age": "70.9", 
+        "country_code": "BLZ"
+    }, 
+    {
+        "age": "76.87", 
+        "country_code": "BMU"
+    }, 
+    {
+        "age": "65.072", 
+        "country_code": "BOL"
+    }, 
+    {
+        "age": "70.364", 
+        "country_code": "BRA"
+    }, 
+    {
+        "age": "72.953", 
+        "country_code": "BRB"
+    }, 
+    {
+        "age": "76.744", 
+        "country_code": "BRN"
+    }, 
+    {
+        "age": "67.955", 
+        "country_code": "BTN"
+    }, 
+    {
+        "age": "48.17", 
+        "country_code": "BWA"
+    }, 
+    {
+        "age": "48.269", 
+        "country_code": "CAF"
+    }, 
+    {
+        "age": "79.326", 
+        "country_code": "CAN"
+    }, 
+    {
+        "age": "72.4759379303692", 
+        "country_code": "CEB"
+    }, 
+    {
+        "age": "80.7", 
+        "country_code": "CHE"
+    }, 
+    {
+        "age": "78.301", 
+        "country_code": "CHI"
+    }, 
+    {
+        "age": "77.109", 
+        "country_code": "CHL"
+    }, 
+    {
+        "age": "74.094", 
+        "country_code": "CHN"
+    }, 
+    {
+        "age": "49.954", 
+        "country_code": "CIV"
+    }, 
+    {
+        "age": "53.934", 
+        "country_code": "CMR"
+    }, 
+    {
+        "age": "57.37", 
+        "country_code": "COG"
+    }, 
+    {
+        "age": "70.412", 
+        "country_code": "COL"
+    }, 
+    {
+        "age": "59.477", 
+        "country_code": "COM"
+    }, 
+    {
+        "age": "71.098", 
+        "country_code": "CPV"
+    }, 
+    {
+        "age": "77.761", 
+        "country_code": "CRI"
+    }, 
+    {
+        "age": "69.2062298079401", 
+        "country_code": "CSS"
+    }, 
+    {
+        "age": "77.31", 
+        "country_code": "CUB"
+    }, 
+    {
+        "age": "77.857", 
+        "country_code": "CYP"
+    }, 
+    {
+        "age": "75.4", 
+        "country_code": "CZE"
+    }, 
+    {
+        "age": "78.8", 
+        "country_code": "DEU"
+    }, 
+    {
+        "age": "60.225", 
+        "country_code": "DJI"
+    }, 
+    {
+        "age": "78.4", 
+        "country_code": "DNK"
+    }, 
+    {
+        "age": "70.369", 
+        "country_code": "DOM"
+    }, 
+    {
+        "age": "69.416", 
+        "country_code": "DZA"
+    }, 
+    {
+        "age": "72.2747056072672", 
+        "country_code": "EAP"
+    }, 
+    {
+        "age": "72.98401759865", 
+        "country_code": "EAS"
+    }, 
+    {
+        "age": "68.6975521978832", 
+        "country_code": "ECA"
+    }, 
+    {
+        "age": "73.5263058517719", 
+        "country_code": "ECS"
+    }, 
+    {
+        "age": "73.668", 
+        "country_code": "ECU"
+    }, 
+    {
+        "age": "68.81", 
+        "country_code": "EGY"
+    }, 
+    {
+        "age": "78.7022323853513", 
+        "country_code": "EMU"
+    }, 
+    {
+        "age": "60.46", 
+        "country_code": "ERI"
+    }, 
+    {
+        "age": "79.5", 
+        "country_code": "ESP"
+    }, 
+    {
+        "age": "71.4", 
+        "country_code": "EST"
+    }, 
+    {
+        "age": "61.971", 
+        "country_code": "ETH"
+    }, 
+    {
+        "age": "77.7028392029447", 
+        "country_code": "EUU"
+    }, 
+    {
+        "age": "58.5478394121186", 
+        "country_code": "FCS"
+    }, 
+    {
+        "age": "78.1", 
+        "country_code": "FIN"
+    }, 
+    {
+        "age": "67.003", 
+        "country_code": "FJI"
+    }, 
+    {
+        "age": "78.7", 
+        "country_code": "FRA"
+    }, 
+    {
+        "age": "79.3", 
+        "country_code": "FRO"
+    }, 
+    {
+        "age": "68.04", 
+        "country_code": "FSM"
+    }, 
+    {
+        "age": "62.441", 
+        "country_code": "GAB"
+    }, 
+    {
+        "age": "79.2", 
+        "country_code": "GBR"
+    }, 
+    {
+        "age": "70.54", 
+        "country_code": "GEO"
+    }, 
+    {
+        "age": "60.164", 
+        "country_code": "GHA"
+    }, 
+    {
+        "age": "55.338", 
+        "country_code": "GIN"
+    }, 
+    {
+        "age": "57.545", 
+        "country_code": "GMB"
+    }, 
+    {
+        "age": "52.78", 
+        "country_code": "GNB"
+    }, 
+    {
+        "age": "51.677", 
+        "country_code": "GNQ"
+    }, 
+    {
+        "age": "78", 
+        "country_code": "GRC"
+    }, 
+    {
+        "age": "70.295", 
+        "country_code": "GRD"
+    }, 
+    {
+        "age": "68.546", 
+        "country_code": "GTM"
+    }, 
+    {
+        "age": "76.28", 
+        "country_code": "GUM"
+    }, 
+    {
+        "age": "63.624", 
+        "country_code": "GUY"
+    }, 
+    {
+        "age": "76.3215580857717", 
+        "country_code": "HIC"
+    }, 
+    {
+        "age": "81.1", 
+        "country_code": "HKG"
+    }, 
+    {
+        "age": "71.505", 
+        "country_code": "HND"
+    }, 
+    {
+        "age": "57.2425826858771", 
+        "country_code": "HPC"
+    }, 
+    {
+        "age": "74.2", 
+        "country_code": "HRV"
+    }, 
+    {
+        "age": "61.213", 
+        "country_code": "HTI"
+    }, 
+    {
+        "age": "72", 
+        "country_code": "HUN"
+    }, 
+    {
+        "age": "68.815", 
+        "country_code": "IDN"
+    }, 
+    {
+        "age": "64.746", 
+        "country_code": "IND"
+    }, 
+    {
+        "age": "78.8", 
+        "country_code": "IRL"
+    }, 
+    {
+        "age": "72.179", 
+        "country_code": "IRN"
+    }, 
+    {
+        "age": "65.939", 
+        "country_code": "IRQ"
+    }, 
+    {
+        "age": "81.8", 
+        "country_code": "ISL"
+    }, 
+    {
+        "age": "80.3", 
+        "country_code": "ISR"
+    }, 
+    {
+        "age": "79.9", 
+        "country_code": "ITA"
+    }, 
+    {
+        "age": "71.006", 
+        "country_code": "JAM"
+    }, 
+    {
+        "age": "72.278", 
+        "country_code": "JOR"
+    }, 
+    {
+        "age": "80.21", 
+        "country_code": "JPN"
+    }, 
+    {
+        "age": "65.75", 
+        "country_code": "KAZ"
+    }, 
+    {
+        "age": "59.823", 
+        "country_code": "KEN"
+    }, 
+    {
+        "age": "66.3", 
+        "country_code": "KGZ"
+    }, 
+    {
+        "age": "69.11", 
+        "country_code": "KHM"
+    }, 
+    {
+        "age": "66.072", 
+        "country_code": "KIR"
+    }, 
+    {
+        "age": "78.25", 
+        "country_code": "KOR"
+    }, 
+    {
+        "age": "68.7", 
+        "country_code": "KSV"
+    }, 
+    {
+        "age": "73.453", 
+        "country_code": "KWT"
+    }, 
+    {
+        "age": "71.6037770391678", 
+        "country_code": "LAC"
+    }, 
+    {
+        "age": "66.906", 
+        "country_code": "LAO"
+    }, 
+    {
+        "age": "78.104", 
+        "country_code": "LBN"
+    }, 
+    {
+        "age": "59.587", 
+        "country_code": "LBR"
+    }, 
+    {
+        "age": "73.489", 
+        "country_code": "LBY"
+    }, 
+    {
+        "age": "72.21", 
+        "country_code": "LCA"
+    }, 
+    {
+        "age": "71.8589626228521", 
+        "country_code": "LCN"
+    }, 
+    {
+        "age": "60.141151341244", 
+        "country_code": "LDC"
+    }, 
+    {
+        "age": "57.8243363291607", 
+        "country_code": "LIC"
+    }, 
+    {
+        "age": "79.7", 
+        "country_code": "LIE"
+    }, 
+    {
+        "age": "71.212", 
+        "country_code": "LKA"
+    }, 
+    {
+        "age": "64.7647676982218", 
+        "country_code": "LMC"
+    }, 
+    {
+        "age": "67.1381018932355", 
+        "country_code": "LMY"
+    }, 
+    {
+        "age": "49.17", 
+        "country_code": "LSO"
+    }, 
+    {
+        "age": "68.7", 
+        "country_code": "LTU"
+    }, 
+    {
+        "age": "79.7", 
+        "country_code": "LUX"
+    }, 
+    {
+        "age": "69.2", 
+        "country_code": "LVA"
+    }, 
+    {
+        "age": "78.194", 
+        "country_code": "MAC"
+    }, 
+    {
+        "age": "76", 
+        "country_code": "MAF"
+    }, 
+    {
+        "age": "69.117", 
+        "country_code": "MAR"
+    }, 
+    {
+        "age": "64.992", 
+        "country_code": "MDA"
+    }, 
+    {
+        "age": "63.227", 
+        "country_code": "MDG"
+    }, 
+    {
+        "age": "76.91", 
+        "country_code": "MDV"
+    }, 
+    {
+        "age": "70.3857175374164", 
+        "country_code": "MEA"
+    }, 
+    {
+        "age": "75.055", 
+        "country_code": "MEX"
+    }, 
+    {
+        "age": "68.2039295313501", 
+        "country_code": "MIC"
+    }, 
+    {
+        "age": "72.949", 
+        "country_code": "MKD"
+    }, 
+    {
+        "age": "55.134", 
+        "country_code": "MLI"
+    }, 
+    {
+        "age": "78.6", 
+        "country_code": "MLT"
+    }, 
+    {
+        "age": "63.067", 
+        "country_code": "MMR"
+    }, 
+    {
+        "age": "69.4023882844218", 
+        "country_code": "MNA"
+    }, 
+    {
+        "age": "72.473", 
+        "country_code": "MNE"
+    }, 
+    {
+        "age": "63.676", 
+        "country_code": "MNG"
+    }, 
+    {
+        "age": "49.348", 
+        "country_code": "MOZ"
+    }, 
+    {
+        "age": "60.002", 
+        "country_code": "MRT"
+    }, 
+    {
+        "age": "71.06", 
+        "country_code": "MUS"
+    }, 
+    {
+        "age": "55.103", 
+        "country_code": "MWI"
+    }, 
+    {
+        "age": "72.727", 
+        "country_code": "MYS"
+    }, 
+    {
+        "age": "76.7828847290315", 
+        "country_code": "NAC"
+    }, 
+    {
+        "age": "61.739", 
+        "country_code": "NAM"
+    }, 
+    {
+        "age": "74", 
+        "country_code": "NCL"
+    }, 
+    {
+        "age": "58.251", 
+        "country_code": "NER"
+    }, 
+    {
+        "age": "52.191", 
+        "country_code": "NGA"
+    }, 
+    {
+        "age": "71.815", 
+        "country_code": "NIC"
+    }, 
+    {
+        "age": "79.3", 
+        "country_code": "NLD"
+    }, 
+    {
+        "age": "70.3223386476288", 
+        "country_code": "NOC"
+    }, 
+    {
+        "age": "79.5", 
+        "country_code": "NOR"
+    }, 
+    {
+        "age": "67.298", 
+        "country_code": "NPL"
+    }, 
+    {
+        "age": "79.7", 
+        "country_code": "NZL"
+    }, 
+    {
+        "age": "78.0439977960918", 
+        "country_code": "OEC"
+    }, 
+    {
+        "age": "77.3799158812829", 
+        "country_code": "OED"
+    }, 
+    {
+        "age": "74.813", 
+        "country_code": "OMN"
+    }, 
+    {
+        "age": "58.593473928624", 
+        "country_code": "OSS"
+    }, 
+    {
+        "age": "65.7", 
+        "country_code": "PAK"
+    }, 
+    {
+        "age": "74.797", 
+        "country_code": "PAN"
+    }, 
+    {
+        "age": "72.179", 
+        "country_code": "PER"
+    }, 
+    {
+        "age": "65.354", 
+        "country_code": "PHL"
+    }, 
+    {
+        "age": "60.36", 
+        "country_code": "PNG"
+    }, 
+    {
+        "age": "72.8", 
+        "country_code": "POL"
+    }, 
+    {
+        "age": "75.079", 
+        "country_code": "PRI"
+    }, 
+    {
+        "age": "66.405", 
+        "country_code": "PRK"
+    }, 
+    {
+        "age": "77.3", 
+        "country_code": "PRT"
+    }, 
+    {
+        "age": "70.073", 
+        "country_code": "PRY"
+    }, 
+    {
+        "age": "67.5564704691472", 
+        "country_code": "PSS"
+    }, 
+    {
+        "age": "74.121", 
+        "country_code": "PYF"
+    }, 
+    {
+        "age": "77.763", 
+        "country_code": "QAT"
+    }, 
+    {
+        "age": "71", 
+        "country_code": "ROU"
+    }, 
+    {
+        "age": "66", 
+        "country_code": "RUS"
+    }, 
+    {
+        "age": "62.353", 
+        "country_code": "RWA"
+    }, 
+    {
+        "age": "65.3423090534393", 
+        "country_code": "SAS"
+    }, 
+    {
+        "age": "73.918", 
+        "country_code": "SAU"
+    }, 
+    {
+        "age": "60.284", 
+        "country_code": "SDN"
+    }, 
+    {
+        "age": "61.92", 
+        "country_code": "SEN"
+    }, 
+    {
+        "age": "80.2", 
+        "country_code": "SGP"
+    }, 
+    {
+        "age": "66.333", 
+        "country_code": "SLB"
+    }, 
+    {
+        "age": "45.349", 
+        "country_code": "SLE"
+    }, 
+    {
+        "age": "67.796", 
+        "country_code": "SLV"
+    }, 
+    {
+        "age": "53.445", 
+        "country_code": "SOM"
+    }, 
+    {
+        "age": "72.6", 
+        "country_code": "SRB"
+    }, 
+    {
+        "age": "55.6776396404788", 
+        "country_code": "SSA"
+    }, 
+    {
+        "age": "54.19", 
+        "country_code": "SSD"
+    }, 
+    {
+        "age": "55.6755040159662", 
+        "country_code": "SSF"
+    }, 
+    {
+        "age": "61.7212539453333", 
+        "country_code": "SST"
+    }, 
+    {
+        "age": "64.32", 
+        "country_code": "STP"
+    }, 
+    {
+        "age": "67.937", 
+        "country_code": "SUR"
+    }, 
+    {
+        "age": "72.7", 
+        "country_code": "SVK"
+    }, 
+    {
+        "age": "77.4", 
+        "country_code": "SVN"
+    }, 
+    {
+        "age": "79.9", 
+        "country_code": "SWE"
+    }, 
+    {
+        "age": "49.555", 
+        "country_code": "SWZ"
+    }, 
+    {
+        "age": "69.3", 
+        "country_code": "SYC"
+    }, 
+    {
+        "age": "71.787", 
+        "country_code": "SYR"
+    }, 
+    {
+        "age": "50.302", 
+        "country_code": "TCD"
+    }, 
+    {
+        "age": "55.629", 
+        "country_code": "TGO"
+    }, 
+    {
+        "age": "71.108", 
+        "country_code": "THA"
+    }, 
+    {
+        "age": "64.099", 
+        "country_code": "TJK"
+    }, 
+    {
+        "age": "61.366", 
+        "country_code": "TKM"
+    }, 
+    {
+        "age": "66.017", 
+        "country_code": "TLS"
+    }, 
+    {
+        "age": "69.775", 
+        "country_code": "TON"
+    }, 
+    {
+        "age": "66.394", 
+        "country_code": "TTO"
+    }, 
+    {
+        "age": "71.5", 
+        "country_code": "TUN"
+    }, 
+    {
+        "age": "71.834", 
+        "country_code": "TUR"
+    }, 
+    {
+        "age": "60.159", 
+        "country_code": "TZA"
+    }, 
+    {
+        "age": "58.03", 
+        "country_code": "UGA"
+    }, 
+    {
+        "age": "66.34", 
+        "country_code": "UKR"
+    }, 
+    {
+        "age": "72.3875453762083", 
+        "country_code": "UMC"
+    }, 
+    {
+        "age": "73.708", 
+        "country_code": "URY"
+    }, 
+    {
+        "age": "76.5", 
+        "country_code": "USA"
+    }, 
+    {
+        "age": "64.951", 
+        "country_code": "UZB"
+    }, 
+    {
+        "age": "70.38", 
+        "country_code": "VCT"
+    }, 
+    {
+        "age": "71.747", 
+        "country_code": "VEN"
+    }, 
+    {
+        "age": "76.6", 
+        "country_code": "VIR"
+    }, 
+    {
+        "age": "71.276", 
+        "country_code": "VNM"
+    }, 
+    {
+        "age": "69.72", 
+        "country_code": "VUT"
+    }, 
+    {
+        "age": "71.517", 
+        "country_code": "PSE"
+    }, 
+    {
+        "age": "68.8539666277969", 
+        "country_code": "WLD"
+    }, 
+    {
+        "age": "70.16", 
+        "country_code": "WSM"
+    }, 
+    {
+        "age": "61.773", 
+        "country_code": "YEM"
+    }, 
+    {
+        "age": "54.74", 
+        "country_code": "ZAF"
+    }, 
+    {
+        "age": "48.218", 
+        "country_code": "COD"
+    }, 
+    {
+        "age": "56.324", 
+        "country_code": "ZMB"
+    }, 
+    {
+        "age": "58.833", 
+        "country_code": "ZWE"
+    },
+    {
+        "age": "68.47", 
+        "country_code": "GRL"
+    }
+]

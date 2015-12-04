@@ -273,8 +273,8 @@ with open('sp.dyn.le00.ma.in_Indicator_en_csv_v2.csv') as f:
 
 		# extract population in 2013 
 		splitLine =  line.split(',')
-		countryName = splitLine[0].replace('"', '')
-
+		# countryName = splitLine[0].replace('"', '')
+  #       if countryName.leng
 		countryCode = splitLine[1].replace('"', '')
 		age = splitLine[-4].replace('"', '')
 
@@ -282,9 +282,7 @@ with open('sp.dyn.le00.ma.in_Indicator_en_csv_v2.csv') as f:
 		# if countryCode in three:
 		# 	countryCode = two[three.index(countryCode)]
 
-        split_2 = line.split('"')
-        print split_2[0]
-        datapoints.append({"country_name": countryName, "country_code": countryCode, "age": age})
+		datapoints.append({"country_name": countryName, "country_code": countryCode, "age": age})
 
 f.close()
 

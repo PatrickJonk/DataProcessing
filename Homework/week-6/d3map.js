@@ -24,7 +24,7 @@ function determineBin(population) {
 	}
 }
 
-d3.json('data2.json', function(error, json) {
+d3.json('data3d.json', function(error, json) {
 	if (error) return console.warn(error);
 	data = json;
 	console.log(data);
