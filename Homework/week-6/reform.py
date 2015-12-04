@@ -274,16 +274,19 @@ with open('sp.dyn.le00.ma.in_Indicator_en_csv_v2.csv') as f:
 		# extract population in 2013 
 		splitLine =  line.split(',')
 		countryName = splitLine[0].replace('"', '')
+
 		countryCode = splitLine[1].replace('"', '')
 		age = splitLine[-4].replace('"', '')
 
 		# converses three char country to two char 	
-		if countryCode in three:
-			countryCode = two[three.index(countryCode)]
+		# if countryCode in three:
+		# 	countryCode = two[three.index(countryCode)]
 
-		datapoints.append([countryName, countryCode, age])
+        split_2 = line.split('"')
+        print split_2[0]
+        datapoints.append({"country_name": countryName, "country_code": countryCode, "age": age})
 
 f.close()
 
-with open('data.json', 'w') as f:
-    json.dump(datapoints, f)
+with open('data2.json', 'w') as f:
+    json.dump(datapoints, f, indent = 4)

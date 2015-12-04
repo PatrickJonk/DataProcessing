@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SVG Map</title>
+    <link rel="stylesheet" type="text/css" href="svg.css"/>
+
+    <!-- Link to d3 library or change path to local copy -->
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="d3line.js"></script>
+    
+  </head>
+  <body>
+  	<svg id="linegraph" width="1000" height="500"></svg>
+    <div class="temperature" style="position:absolute">
+    </div>
+    <div id="date "class="date" style="transform: rotate(90deg); position:absolute">
+    </div>
+  </body>
+  <style>
+  
+  #date {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100px;
+        transform: rotate(90deg);
+       
+    }
+  </style>
+
+</html>
