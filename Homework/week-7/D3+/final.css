@@ -1,0 +1,54 @@
+/*.graph {
+    margin: auto;
+    left: 100px;
+}
+
+#linegraph {
+	position: relative;
+    margin: auto;
+}*/
+
+body {
+    margin: auto;
+    padding: 0;
+}
+
+.
+
+/*.linegraph {
+	position: static;
+	padding-left: 500px
+}*/
+
+#graphs {
+	position: absolute;
+    text-align:center;
+    padding:100px;
+    margin-left: 100px;
+}
+
+#header {
+	color: white;
+	font: 20px arial, sans-serif;
+	background-color: #8c96c6;
+	text-align:center;
+	padding: 5px;*/
+
+}
+#text {
+	text-align:center;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+#footer {
+	color: white;
+	font: 10px arial, sans-serif;
+	background-color: #8c96c6;
+	text-align:center;
+	padding: 5px;
+}
+
+.yearbox {
+	border: 1px solid #000000
+}

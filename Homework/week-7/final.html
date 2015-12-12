@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="final.css"/>
+  </head>
+  <body>
+    <div id="header">
+    <h1>The total fertitlity rate in the world</h1>
+    </div>
+    <div id='text'>
+      <p>The total fertility rate is the number of children that would be born 
+        to a woman if she would live to the end of her childbearing years. Many
+         people are worried the world population will continue to grow to 
+         unsustainable numbers. However, this visualisation shows that the 
+         fertility rate appears to converge to around 2 births per women. 
+         If the current trend continues the world population will stabilize.</p>
+      <p>This visualisation shows the fertility rate for all countries from 1960
+       untill 2013. Clicking on a country will show the history of the fertility
+        rate in the country. Clicking on a year in the linegraph will show the 
+        fertility rate for the world in that year. </p>
+    <button onclick="timelapse()">Timelapse</button>
+     <p id='yearbox'>1960</p>
+    </div>
+  	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+	   <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+	
+  <div id='graphs'>
+   
+  	
+    <svg id="linegraph" class='graph' width="500" height="300"></svg>
+    <svg id="container" class='graph' width="500" height="300"></svg>
+  <div id ='footer'>
+    <p>Source: data.worldbank.org</p> 
+  </div>
+  <script src="datamaps.world.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="final.js"></script>
+  <script src="d3.js"></script>
+  
+</body>
+
+
+</html>
